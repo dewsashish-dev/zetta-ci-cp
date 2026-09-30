@@ -1,0 +1,105 @@
+.otp-section {
+  position: fixed;
+  overflow: hidden;
+  height: 100svh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: var(--text-color);
+  background-image: url(../../../assets/images/Login/BackGround_Img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otp-section .otp-card {
+  width: 32.5%;
+  height: auto;
+  background-image: url("../../../assets/images/Login/Pattern.png");
+  background-color: rgba(0, 0, 0, 0.507);
+  background-size: cover;
+  border-radius: var(--fs30);
+  padding: var(--fs56) var(--fs62);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.otp-section .otp-card .logo {
+  width: 45%;
+}
+
+.otp-section .otp-card .otp-title {
+  margin-top: var(--fs30);
+  width: 100%;
+  text-align: left;
+  color: var(--text-color);
+  font-size: 2.6vw;
+}
+
+.otp-section .otp-card .subtitle {
+  width: 100%;
+  text-align: left;
+  color: var(--link-gray);
+  font-size: var(--fs20);
+  margin-bottom: var(--fs60);
+}
+
+.otp-section .otp-card .subtitle span {
+  color: var(--text-color);
+}
+
+.otp-section .otp-card .otp-boxes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--fs36);
+  margin-bottom: var(--fs30);
+}
+
+.otp-section .otp-card .otp-boxes input {
+  background-color: transparent;
+  width: 16%;
+  border: 2px solid var(--text-color);
+  border-radius: var(--fs12);
+  font-size: var(--fs50);
+  text-align: center;
+  color: var(--text-color);
+}
+
+.otp-section .otp-card .verify-btn {
+  width: 100%;
+  border-radius: var(--fs14);
+  background-color: var(--clr-link);
+  padding: var(--fs14) 0px;
+  font-size: var(--fs25);
+  font-weight: 600;
+  margin-bottom: var(--fs30);
+}
+
+.otp-section .otp-card .verify-btn:hover {
+  box-shadow: 0px 0px 8px 0px var(--clr-link);
+}
+
+.otp-section .otp-card .verify-dec {
+  margin-bottom: var(--fs30);
+  color: var(--link-gray);
+  font-size: var(--fs20);
+}
+
+.otp-section .otp-card .verify-dec span {
+  color: var(--clr-link);
+  cursor: pointer;
+}
+
+.otp-section .otp-card .timer {
+  font-size: var(--fs16);
+  font-weight: 600;
+  color: var(--text-color);
+}

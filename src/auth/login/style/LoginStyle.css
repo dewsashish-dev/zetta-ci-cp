@@ -1,0 +1,111 @@
+.login-section {
+  position: fixed;
+  overflow: hidden;
+  height: 100svh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: var(--text-color);
+  background-image: url(../../../assets/images/Login/BackGround_Img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-section .login-card {
+  width: 32.5%;
+  height: auto;
+  background-image: url("../../../assets/images/Login/Pattern.png");
+  background-color: rgba(0, 0, 0, 0.507);
+  background-size: cover;
+  border-radius: var(--fs30);
+  padding: var(--fs56) var(--fs62);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.login-section .login-card .logo {
+  width: 45%;
+}
+
+.login-section .login-card .login-title {
+  margin-top: var(--fs30);
+  width: 100%;
+  text-align: left;
+  color: var(--text-color);
+  font-size: 2.6vw;
+}
+
+.login-section .login-card .login-desc {
+  width: 100%;
+  text-align: left;
+  color: var(--text-color);
+  font-size: var(--fs20);
+  margin-bottom: var(--fs60);
+}
+
+.login-section .login-card .email-group {
+  width: 100%;
+  margin-bottom: var(--fs36);
+}
+
+.login-section .login-card .email-group input {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid var(--text-color);
+  border-radius: var(--fs10);
+  padding: var(--fs14) var(--fs24);
+  font-size: var(--fs20);
+  color: var(--text-color);
+}
+
+.login-section .login-card .checkbox-group {
+  margin-bottom: var(--fs30);
+}
+
+.login-section .login-card .checkbox-group input {
+  transform: scale(1.3);
+  accent-color: var(--clr-link);
+  margin-right: 8px;
+  background-color: red;
+}
+
+.login-section .login-card .checkbox-group .terms-label {
+  font-size: var(--fs16);
+  color: var(--text-color);
+}
+
+.login-section .login-card .checkbox-group .terms-label span {
+  color: var(--clr-link);
+}
+
+.login-section .login-card .request-otp-btn {
+  width: 100%;
+  border-radius: var(--fs14);
+  background-color: var(--clr-link);
+  padding: var(--fs14) 0px;
+  font-size: var(--fs25);
+  font-weight: 600;
+  margin-bottom: var(--fs30);
+}
+
+.login-section .login-card .request-otp-btn:hover {
+  box-shadow: 0px 0px 8px 0px var(--clr-link);
+}
+
+.login-section .login-card .create-new {
+  color: var(--text-color);
+  font-size: var(--fs18);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-section .emailError {
+  border: 1px solid red !important;
+}

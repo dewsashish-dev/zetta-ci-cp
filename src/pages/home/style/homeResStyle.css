@@ -1,0 +1,209 @@
+@import "./homeStyle.css";
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .home-section .hero-banner {
+    padding: 8%;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-section .hero-banner {
+    padding: 7%;
+  }
+
+  .home-section .hero-banner .hero-text {
+    width: 40%;
+    padding: 10% 0%;
+  }
+
+  .home-section .hero-banner .hero-text .hero-title {
+    font-size: var(--fs54);
+  }
+
+  .home-section .hero-banner .hero-text .hero-title span {
+    -webkit-text-stroke: 0.5px var(--text-color);
+  }
+
+  .home-section .hero-banner .hero-text .hero-desc {
+    font-size: var(--fs16);
+    margin: var(--fs26) 0px;
+  }
+
+  .home-section .hero-banner .hero-text .explore-btn {
+    font-size: var(--fs20);
+    padding: var(--fs10) var(--fs32);
+    border-radius: var(--fs12);
+  }
+
+  .home-section .hero-banner .hero-images {
+    width: 55%;
+    gap: var(--fs30);
+  }
+
+  .home-section .hero-banner .hero-images .hero-stats {
+    gap: var(--fs16);
+    width: 20%;
+  }
+
+  .home-section .hero-banner .hero-images .hero-stats .stat-item {
+    gap: var(--fs8);
+    padding: 6% 0% 12% 0%;
+    border-radius: var(--fs8);
+  }
+
+  .home-section .hero-banner .hero-images .hero-stats .stat-item .image {
+    width: 50%;
+  }
+
+  .home-section .hero-banner .hero-images .hero-stats .stat-item .count {
+    font-size: var(--fs38);
+  }
+
+  .home-section .hero-banner .hero-images .hero-stats .stat-item .label {
+    font-size: var(--fs14);
+  }
+
+  .home-section .hero-banner .hero-images .hero-slider {
+    width: 80%;
+  }
+
+  .home-section .hero-banner .hero-images .hero-slider .loading img {
+    width: 10%;
+  }
+
+  .home-section .hero-banner .hero-images .hero-slider .error-cnt h1 {
+    font-size: 2vw;
+  }
+
+  .home-section
+    .hero-banner
+    .hero-images
+    .hero-slider
+    .hero-swiper-wrapper
+    .slide-img {
+    border: 1vw solid rgba(172, 172, 172, 0.61);
+    border-radius: 10px;
+  }
+
+  .home-section .home-slider-wrapper {
+    gap: var(--fs40);
+    padding: 0% 7.3% 6% 7.3%;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-section .hero-banner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+  }
+
+  .home-section .hero-banner .hero-text {
+    width: 100%;
+    padding: 10% 0%;
+    order: 2;
+  }
+
+  .home-section .hero-banner .hero-text .hero-title {
+    font-size: var(--fs54);
+  }
+
+  .home-section .hero-banner .hero-text .hero-title span {
+    -webkit-text-stroke: 0.5px var(--text-color);
+  }
+
+  .home-section .hero-banner .hero-text .hero-desc {
+    font-size: var(--fs24);
+    margin: var(--fs26) 0px;
+  }
+
+  .home-section .hero-banner .hero-text .explore-btn {
+    font-size: var(--fs26);
+    padding: var(--fs10) var(--fs32);
+    border-radius: var(--fs12);
+  }
+
+  .home-section .hero-banner .hero-images {
+    width: 100%;
+    gap: var(--fs30);
+    flex-direction: column;
+  }
+
+  .home-section .hero-banner .hero-images .hero-stats {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--fs16);
+    width: 100%;
+  }
+
+  .home-section .hero-banner .hero-images .hero-stats .stat-item {
+    width: 24%;
+    gap: var(--fs8);
+    padding: 2% 0%;
+    border-radius: var(--fs8);
+  }
+
+  .home-section .hero-banner .hero-images .hero-stats .stat-item .image {
+    width: 50%;
+  }
+
+  .home-section .hero-banner .hero-images .hero-stats .stat-item .count {
+    font-size: var(--fs40);
+  }
+
+  .home-section .hero-banner .hero-images .hero-stats .stat-item .label {
+    font-size: var(--fs18);
+  }
+
+  .home-section .hero-banner .hero-images .hero-slider {
+    margin-top: 8%;
+    width: 100%;
+  }
+
+  .home-section .hero-banner .hero-images .hero-slider .loading img {
+    width: 10%;
+  }
+
+  .home-section .hero-banner .hero-images .hero-slider .error-cnt h1 {
+    font-size: 2vw;
+  }
+
+  .home-section
+    .hero-banner
+    .hero-images
+    .hero-slider
+    .hero-swiper-wrapper
+    .slide-img {
+    border: 1vw solid rgba(172, 172, 172, 0.61);
+    border-radius: 10px;
+  }
+
+  .home-section .home-slider-wrapper {
+    gap: var(--fs40);
+    padding: 0% 7.3% 6% 7.3%;
+  }
+}
+
+@media (max-width: 400px) {
+}
+
+@media (max-width: 340px) {
+  .home-section .hero-banner .hero-images .hero-stats .stat-item .count {
+    font-size: var(--fs32);
+  }
+
+  .home-section .hero-banner .hero-images .hero-stats .stat-item .label {
+    font-size: var(--fs16);
+  }
+}

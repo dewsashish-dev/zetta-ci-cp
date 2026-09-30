@@ -1,0 +1,76 @@
+@import "./SignupStyle.css";
+
+@media (max-width: 1600px) {
+  .signup-section .create-account-card .card-title {
+    font-size: 1.7vw;
+  }
+
+  .signup-section .create-account-card .user-type input {
+    transform: scale(1.6);
+  }
+
+  .signup-section .create-account-card .user-type label {
+    font-size: var(--fs23);
+  }
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .signup-section .create-account-card {
+    width: 45%;
+  }
+
+  .signup-section .create-account-card .card-title {
+    font-size: 1.8vw;
+  }
+
+  .signup-section .create-account-card .user-type input {
+    transform: scale(1.3);
+  }
+
+  .signup-section .create-account-card .user-type label {
+    font-size: var(--fs26);
+  }
+
+  .signup-section .create-account-card .form-group label {
+    font-size: var(--fs20);
+  }
+
+  .signup-section .create-account-card .form-group input {
+    font-size: var(--fs26);
+  }
+
+  .signup-section .create-account-card .next-btn {
+    font-size: var(--fs28);
+  }
+}
+
+@media (max-width: 768px) {
+  .signup-section .create-account-card {
+    width: 55%;
+  }
+}
+
+@media (max-width: 576px) {
+  .signup-section .create-account-card .card-title {
+    font-size: var(--fs44);
+  }
+
+  .signup-section .create-account-card {
+    width: 75%;
+  }
+}
+
+@media (max-width: 400px) {
+  .signup-section .create-account-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 340px) {
+}

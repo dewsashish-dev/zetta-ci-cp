@@ -1,0 +1,237 @@
+.header-primary {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var(--bg-primary);
+  width: 100%;
+  padding: 2.5% 7%;
+  z-index: 999;
+}
+
+.header-primary a {
+  display: block;
+  width: 18%;
+}
+
+.main-content {
+  padding: 1% 7%;
+}
+
+.main-content .top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4.5%;
+  padding-bottom: 2.5%;
+  border-bottom: 1px solid var(--link-gray);
+  margin-bottom: var(--fs42);
+}
+
+.main-content .top-nav .page-title {
+  font-size: var(--fs38);
+  color: var(--text-color);
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.main-content .top-nav .bread-crumbs {
+  display: flex;
+  align-items: center;
+  gap: var(--fs22);
+  width: auto;
+  white-space: nowrap;
+}
+
+.main-content .top-nav .bread-crumbs button,
+.main-content .top-nav .bread-crumbs span {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--link-gray);
+  font-size: var(--fs22);
+  text-transform: capitalize;
+}
+
+.main-content .top-nav .bread-crumbs span {
+  color: var(--text-color);
+}
+
+.main-content .profile-upload {
+  display: flex;
+  gap: var(--fs24);
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+.main-content .profile-upload .profile-img {
+  position: relative;
+  width: 8%;
+  height: 145px;
+  border-radius: var(--fs16);
+  overflow: hidden;
+  cursor: pointer;
+  background-color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content .profile-upload .profile-img .camera-icon {
+  position: absolute;
+  width: 26%;
+  bottom: 6%;
+  right: 8%;
+}
+
+.main-content .profile-upload .profile-img .file-input {
+  display: none;
+}
+
+.main-content .profile-upload .profile-desc {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  color: var(--text-color);
+  font-size: var(--fs21);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.main-content .seller-form {
+  margin-top: 3vw;
+}
+
+.main-content .seller-form .form-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2.7vw;
+}
+
+.main-content .seller-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vw;
+  position: relative;
+}
+
+.main-content .seller-form .form-group label {
+  color: var(--link-gray);
+  font-size: var(--fs15);
+}
+
+.main-content .seller-form .form-group input {
+  background-color: var(--bg-card);
+  padding: 0.6em 1.5em;
+  font-size: var(--fs22);
+  border-radius: 8px;
+  margin-top: 0.5em;
+  border: none;
+  color: var(--text-color);
+}
+
+.main-content .seller-form .form-group .dropdown {
+  position: relative;
+  width: 100%;
+}
+
+.main-content .seller-form .form-group .dropdown .dropdown-select {
+  background: var(--bg-card);
+  border: 1px solid #1d2b42;
+  border-radius: 8px;
+  padding: 0.6em 1.5em;
+  font-size: var(--fs22);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 0.5em;
+  position: relative;
+}
+
+.main-content
+  .seller-form
+  .form-group
+  .dropdown
+  .dropdown-select
+  .dropdown-icon {
+  position: absolute;
+  width: 2%;
+  top: 45%;
+  right: 2%;
+  transition: transform 0.3s ease;
+}
+
+.main-content
+  .seller-form
+  .form-group
+  .dropdown
+  .dropdown-select
+  .dropdown-icon.rotate {
+  transform: rotate(180deg);
+}
+
+.main-content .seller-form .form-group .dropdown .dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 8px);
+  width: 100%;
+  margin: 0;
+  padding: 8px 0;
+  list-style: none;
+  background: #121f33;
+  border-radius: 8px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(15px);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0.3s ease;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content .seller-form .form-group .dropdown .dropdown-menu.show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+
+  transform: translateY(0);
+}
+
+.main-content .seller-form .form-group .dropdown .dropdown-menu li {
+  color: var(--text-color);
+  font-size: var(--fs22);
+  padding: 2% 4%;
+}
+
+.main-content .seller-form .form-group .dropdown .dropdown-menu li:hover {
+  background-color: #1d2b42;
+}
+
+.main-content .seller-form .error-message {
+  color: red;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+}
+
+.main-content .seller-form .form-footer {
+  display: flex;
+  justify-content: end;
+}
+
+.main-content .seller-form .form-footer button {
+  background-color: var(--clr-link);
+  border-radius: var(--fs12);
+  font-size: var(--fs20);
+  font-weight: 600;
+  padding: 0.6% 2.6%;
+}
+
+.main-content .seller-form .form-footer button:hover {
+  box-shadow: 0px 0px 8px 0px var(--clr-link);
+}

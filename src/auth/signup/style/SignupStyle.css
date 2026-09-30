@@ -1,0 +1,112 @@
+.signup-section {
+  position: fixed;
+  overflow: hidden;
+  height: 100svh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: var(--text-color);
+  background-image: url(../../../assets/images/Login/BackGround_Img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-section .create-account-card {
+  width: 32.5%;
+  height: auto;
+  background-image: url("../../../assets/images/Login/Pattern.png");
+  background-color: rgba(0, 0, 0, 0.507);
+  background-size: cover;
+  border-radius: var(--fs30);
+  padding: var(--fs56) var(--fs62);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.signup-section .create-account-card .logo {
+  width: 45%;
+}
+
+.signup-section .create-account-card .card-title {
+  margin-top: var(--fs30);
+  width: 100%;
+  text-align: left;
+  color: var(--text-color);
+  font-size: 1.8vw;
+  margin-bottom: var(--fs30);
+}
+
+.signup-section .create-account-card .next-btn {
+  width: 100%;
+  border-radius: var(--fs14);
+  background-color: var(--clr-link);
+  padding: var(--fs14) 0px;
+  font-size: var(--fs25);
+  font-weight: 600;
+  margin-bottom: var(--fs30);
+}
+
+.signup-section .create-account-card .next-btn:hover {
+  box-shadow: 0px 0px 8px 0px var(--clr-link);
+}
+
+.signup-section .create-account-card .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fs13);
+  width: 100%;
+  margin-bottom: var(--fs30);
+}
+
+.signup-section .create-account-card .form-group label {
+  font-size: var(--fs18);
+  color: var(--link-gray);
+}
+
+.signup-section .create-account-card .form-group input {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid var(--text-color);
+  border-radius: var(--fs10);
+  padding: var(--fs14) var(--fs24);
+  font-size: var(--fs20);
+  color: var(--text-color);
+}
+
+.signup-section .create-account-card .user-type {
+  display: flex;
+  align-items: center;
+  gap: var(--fs25);
+  width: 100%;
+  margin-bottom: var(--fs30);
+}
+
+.signup-section .create-account-card .user-type input {
+  vertical-align: middle;
+  transform: scale(1.6);
+  accent-color: var(--clr-link);
+}
+
+.signup-section .create-account-card .user-type label {
+  display: flex;
+  gap: var(--fs18);
+  font-size: var(--fs24);
+  padding-top: 0;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.signup-section .create-account-card .user-type label:has(input:checked) {
+  color: var(--clr-link);
+}
+
+.signup-section .input-error {
+  border: 1px solid red !important;
+}
